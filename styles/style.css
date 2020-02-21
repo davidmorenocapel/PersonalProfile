@@ -1,9 +1,22 @@
+*{
+    padding: 0;
+    margin: 0;
+}
 .cabecera{
-    background-color: red;
-    display: felx;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: end;
+    align-items: auto;
+    align-content: start
+}
+.nombre-h1{
+    font-size: 30px; 
+    margin-right: 40%;
+    margin-top: 1%;
+
+}
+.cuerpo-sup{
+    display: flex;
     
-  }
-.nombre{
-    background-color: green;
-    
-  }
+}
