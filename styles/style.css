@@ -3,20 +3,37 @@
     margin: 0;
 }
 .cabecera{
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: end;
-    align-items: auto;
-    align-content: start
+    background-color: violet;
+    display: grid;
+    grid-template-columns: 10fr 1fr;
+    grid-template-rows: 1.5fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
 }
-.nombre-h1{
-    font-size: 30px; 
-    margin-right: 40%;
-    margin-top: 1%;
+.cabecera-nombre{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: gray;
+    grid-area: 1 / 1 / 2 / 2;
 
 }
-.cuerpo-sup{
+.cabecera-menu{
     display: flex;
-    
+    align-items: center;
+    justify-content: flex-end;
+    background-color: white;
+    grid-area: 1 / 2 / 2 / 3
+} 
+
+.cuerpo-sup{
+
+    background-color: green;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 1000px;
+}
+.git{
+    width: 75%;
 }
