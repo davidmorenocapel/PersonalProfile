@@ -1,21 +1,31 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Code+Pro&display=swap');
 *{
     padding: 0;
     margin: 0;
 }
+body{
+    background-color: #dbe9ee;
+}
+/* CSS del HEADER */
+
 .cabecera{
-    background-color: violet;
+   
     display: grid;
     grid-template-columns: 10fr 1fr;
-    grid-template-rows: 1.5fr;
-    grid-column-gap: 0px;
-    grid-row-gap: 0px;
+ 
 }
 .cabecera-nombre{
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: gray;
-    grid-area: 1 / 1 / 2 / 2;
+
+}
+
+h1{
+color: #4f6d7a;
+text-transform: uppercase;
+font-size: 10em;
+font-family: 'Source Code Pro',sans-serif ;
 
 }
 .cabecera-menu{
@@ -23,17 +33,52 @@
     align-items: center;
     justify-content: flex-end;
     background-color: white;
-    grid-area: 1 / 2 / 2 / 3
+
 } 
+.img-mediana{
+    width: 600px; height: 800px;
+    background-repeat: no-repeat;
+    background-position: 20%;
+    border-radius: 20%;
+    background-size: 100% auto;
+}
 
-.cuerpo-sup{
+/* CSS de la FOTO y el TEXTO */
+.cuerpo{
+    background-color: #4f6d7a ;
+    display: grid;
+    grid-template-columns: 40% 60%;
+    margin-top: 100px;
+    border-top-width: 10px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
 
-    background-color: green;
+.foto{
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 1000px;
 }
-.git{
-    width: 75%;
+
+.textazo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+h2{
+    color: #dbe9ee ;
+    font-family: 'Source Code Pro',sans-serif ;
+    text-align: center;
+    font-size: 6em;
+}
+
+.biblio{
+    color: #dbe9ee ;
+    padding-top: 4%;
+    font-size: 3em;
+    text-align: center;
+    font-family: 'Source Code Pro',sans-serif ;
+    margin-right: 150px;
+    margin-left: 150px;
 }
