@@ -32,9 +32,12 @@ font-family: 'Source Code Pro',sans-serif ;
     display: flex;
     align-items: center;
     justify-content: flex-end;
-    background-color: white;
+    background-color: #dbe9ee;
 
 } 
+.nav-btn{
+ all: unset;
+}
 .img-mediana{
     width: 600px; height: 800px;
     background-repeat: no-repeat;
@@ -79,6 +82,30 @@ h2{
     margin-left: 150px;
 }
 
+/*¿QUE SE HACER? */
+.padre{
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+    margin-top: 10px;
+}
+
+.cont-text{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+
+}
+
+.texto-qhacer{
+    font-size: 50px;
+    color: #4f6d7a;
+    font-family: monospace;
+    text-transform: uppercase;
+    
+
+}
+
 /* Fotos y cuadricula */
 
 .graella{
@@ -95,15 +122,11 @@ h2{
     align-items: center;
     margin-top: 20px;
 }
-
 .img-tec{
     width: 10em;
     height: 10em;
 }
-
-
 /* EFECTO MAQUINA DE ESCRIBIR */
-
 .maquina {
 	margin: auto;
     display: table;
