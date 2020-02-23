@@ -80,6 +80,17 @@ h2{
     margin-right: 150px;
     margin-left: 150px;
 }
+.cita{
+    color: #dbe9ee ;
+    padding-top: 0;
+    font-size: 3em;
+    text-align: center;
+    font-family: 'Source Code Pro',sans-serif ;
+    margin-right: 150px;
+    margin-left: 150px;
+    font-weight: bold;
+
+}
 
 /*¿QUE SE HACER? */
 .padre{
