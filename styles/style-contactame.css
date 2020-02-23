@@ -1,7 +1,7 @@
 @import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
 
 html{    
-  background-color: ;
+  background-color: #4f6d7a;
   background-size: cover;
   height:100%;
 }
@@ -53,15 +53,15 @@ html{
 .feedback-input:focus{
 	background: #fff;
 	box-shadow: 0;
-	border: 3px solid #3498db;
-	color: #3498db;
+	border: 3px solid #4f6d7a;
+	color: #4f6d7a;
 	outline: none;
   padding: 13px 13px 13px 54px;
 }
 
 .focused{
-	color:#30aed6;
-	border:#30aed6 solid 3px;
+	color:#4f6d7a;
+	border:#4f6d7a solid 3px;
 }
 
 /* Icons ---------------------------------- */
@@ -117,9 +117,9 @@ input:focus, textarea:focus {
 	font-family: 'Montserrat', Arial, Helvetica, sans-serif;
 	float:left;
 	width: 100%;
-	border: #fbfbfb solid 4px;
+	border: #dbe9ee solid 4px;
 	cursor:pointer;
-	background-color: #3498db;
+	background-color: #4f6d7a;
 	color:white;
 	font-size:24px;
 	padding-top:22px;
@@ -133,7 +133,7 @@ input:focus, textarea:focus {
 
 #button-blue:hover{
 	background-color: rgba(0,0,0,0);
-	color: #0493bd;
+	color: #4f6d7a;
 }
 	
 .submit:hover {
