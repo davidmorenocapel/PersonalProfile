@@ -1,5 +1,10 @@
 # PAGINA PERSONAL
 
+El objetivo de este proyecto es poner en practica los últimos conceptos
+aprendidos, de esta forma afianzar tanto GRID como FLEXBOX.
+He construido una pagina web personal donde se muestra alguna información
+personal y mi porfolio.
+
 **CARACTERISITICAS BASICAS 🚀**
 
 He utilizado como lenguajes principales HTML y CSS.
