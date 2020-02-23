@@ -1,4 +1,5 @@
 @import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+@import url('https://fonts.googleapis.com/css?family=Source+Code+Pro&display=swap');
 
 html{    
   background-color: #4f6d7a;
@@ -70,6 +71,7 @@ html{
 	background-size: 30px 30px;
 	background-position: 11px 8px;
 	background-repeat: no-repeat;
+	font-family: 'Source Code Pro', Arial, Helvetica, sans-serif;
 }
 
 #name:focus{
@@ -78,6 +80,7 @@ html{
 	background-position: 8px 5px;
   background-position: 11px 8px;
 	background-repeat: no-repeat;
+	font-family: 'Source Code Pro', Arial, Helvetica, sans-serif;
 }
 
 #email{
@@ -85,6 +88,7 @@ html{
 	background-size: 30px 30px;
 	background-position: 11px 8px;
 	background-repeat: no-repeat;
+	font-family: 'Source Code Pro', Arial, Helvetica, sans-serif;
 }
 
 #email:focus{
@@ -92,6 +96,7 @@ html{
 	background-size: 30px 30px;
   background-position: 11px 8px;
 	background-repeat: no-repeat;
+	font-family: 'Source Code Pro', Arial, Helvetica, sans-serif;
 }
 
 #comment{
@@ -99,6 +104,7 @@ html{
 	background-size: 30px 30px;
 	background-position: 11px 8px;
 	background-repeat: no-repeat;
+	font-family: 'Source Code Pro' , Arial, Helvetica, sans-serif;
 }
 
 textarea {
@@ -114,7 +120,7 @@ input:focus, textarea:focus {
 }
 
 #button-blue{
-	font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+	font-family: 'Source Code Pro', Arial, Helvetica, sans-serif;
 	float:left;
 	width: 100%;
 	border: #dbe9ee solid 4px;
@@ -132,6 +138,7 @@ input:focus, textarea:focus {
 }
 
 #button-blue:hover{
+	font-family: 'Source Code Pro', Arial, Helvetica, sans-serif;
 	background-color: rgba(0,0,0,0);
 	color: #4f6d7a;
 }

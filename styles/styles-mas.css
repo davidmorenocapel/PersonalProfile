@@ -1,32 +1,27 @@
 @import url('https://fonts.googleapis.com/css?family=Source+Code+Pro&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Indie+Flower&display=swap');
-*{
-    padding: 0;
-    margin: 0;
-}
+
 body{
     background-color: #dbe9ee;
+    margin: 0;
 }
-/* CSS del HEADER */
 
 .cabecera{
-   
     display: grid;
-    grid-template-rows: 10fr 2fr ;
- 
+    grid-template-rows: 70% 30% ; 
 }
 .cabecera-nombre{
     display: flex;
     align-items: center;
     justify-content: center;
-
+    margin-top: -50px;
 }
 
 h1{
-color: #4f6d7a;
-text-transform: uppercase;
-font-size: 10em;
-font-family: 'Indie Flower',sans-serif,Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
+    color: #4f6d7a;
+    text-transform: uppercase;
+    font-size: 10em;
+    font-family: 'Indie Flower',sans-serif,Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
 
 }
 .cabecera-menu{
@@ -34,130 +29,119 @@ font-family: 'Indie Flower',sans-serif,Impact, Haettenschweiler, 'Arial Narrow B
     align-items: flex-end;
     justify-content: center;
     background-color: #dbe9ee;
-
+    margin-right: 75px;
+    margin-top: -50px;
 } 
 
-.img-mediana{
-    width: 600px; height: 800px;
-    background-repeat: no-repeat;
-    background-position: 20%;
-    border-radius: 20%;
-    background-size: 100% auto;
-}
-/* CSS de la FOTO y el TEXTO */
-.cuerpo{
-    background-color: #4f6d7a ;
+/* CONTENEDOR DE RRSS Y YOUTUBE */
+
+.contenido{
+    background-color: #4f6d7a;
     display: grid;
-    grid-template-columns: 40% 60%;
-    margin-top: 30px;
-    border-top-width: 10px;
-    padding-top: 50px;
-    padding-bottom: 50px;
-}
-.foto{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-.textazo{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 2%;
     
-}
-h2{
-    color: #dbe9ee ;
-    font-family: 'Source Code Pro',sans-serif ;
-    text-align: center;
-    font-size: 6em;
-}
-.biblio{
-    color: #dbe9ee ;
-    padding-top: 4%;
-    font-size: 3em;
-    text-align: center;
-    font-family: 'Source Code Pro',sans-serif ;
-    margin-right: 150px;
-    margin-left: 150px;
-}
-
-/*¿QUE SE HACER? */
-.padre{
-    display: flex;
-    align-content: center;
-    flex-direction: column;
-    margin-top: 10px;
-}
-
-.cont-text{
-    display: flex;
-    align-content: center;
-    justify-content: center;
-    
-}
-
-.texto-qhacer{
-    font-size: 50px;
-    color: #4f6d7a;
-    font-family: monospace;
-    text-transform: uppercase;
-    
-
-}
-
-/* Fotos y cuadricula */
-
-.graella{
-    display: flex;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
-    max-width: 900px;
-    text-align: center;
-    padding: 1em;
-}
-.contender-graella{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 20px;
-}
-.img-tec{
-    width: 10em;
-    height: 10em;
-}
-/* EFECTO MAQUINA DE ESCRIBIR */
-.maquina {
-	margin: auto;
-    display: table;
-    margin-left: 40px;
-    margin-top: 0px;
-    margin-bottom: 0px;
-    margin-right: 0px;
-}
-
-.lerning { 
-	position: relative; 
-	float: left;
-	background:  #dbe9ee;
-	color: #4f6d7a;
-    font-size: 2.5em;
-    font-family: 'Source Code Pro' , 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
-
-.lerning span {
-    position:absolute;
-    right:0;
-    width:0;
-    background:  #dbe9ee ;
-    border-left: 1px solid #000;
-    animation: escribir 5s steps(30) infinite alternate;
    
 }
-
-@keyframes escribir {
-    from { width: 100% }
-    to { width:0 }
+.rrss{
+    display: flex;
+    flex-direction: column;
+    border-right-width: 5px;
+    border-right-style: solid;
+    border-color: #dbe9ee;
 }
+.titulo-rrss{
+    font-size: 50px;
+    font-family: 'Source Code Pro' , 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #dbe9ee;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.enlaces-rrss{
+    display: felx;
+    align-content: space-between;
+    margin-left: 250px;
+}
+.instagram{
+    background: #d6249f;
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+    box-shadow: 0px 3px 10px rgba(0,0,0,.25);
+    border-radius: 100px;
+    padding: 20px 60px;
+    color: white;
+    text-decoration: none;
+    font-size: 3em;
+    margin: 0 15px;
+    font-family: 'Source Code Pro' , Arial, Helvetica, sans-serif;
+    margin-bottom: 100px;
+    margin-right: 100px;
+    margin-left: 100px;
+    margin-top: 50px;
+}
+.twitter{
+    background: #00acee;
+    border-radius: 100px;
+    padding: 20px 60px;
+    color: white;
+    text-decoration: none;
+    font-size: 3em;
+    margin: 0 15px;
+    font-family: 'Source Code Pro' , Arial, Helvetica, sans-serif;
+    margin-right: 100px;
+margin-left: 10px;
+}
+
+.facebook{
+    background: #3b5998;
+    border-radius: 100px;
+    padding: 20px 60px;
+    color: white;
+    text-decoration: none;
+    font-size: 3em;
+    margin: 0 15px;
+    font-family: 'Source Code Pro' , Arial, Helvetica, sans-serif;
+    margin-left: 105px;
+margin-right: 125px;
+}
+.Github{
+    background: #333;
+    border-radius: 100px;
+    padding: 20px 60px;
+    color: white;
+    text-decoration: none;
+    font-size: 3em;
+    margin: 0 15px;
+    font-family: 'Source Code Pro' , Arial, Helvetica, sans-serif;
+
+}
+
+h2{
+
+    font-size: 50px;
+    font-family: 'Source Code Pro' , 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #dbe9ee;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.videocap{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     margin-bottom: 100px;
+}
+
+.video{
+    border-left: 3px;
+    border-color: #dbe9ee;
+    border-left-width: 5px;
+    border-left-style: solid;
+}
+
+
+
+
+
 
 
 /* ESTILO BOTONES (PROBLEMAS CON EL TAMAÑO) */
@@ -172,21 +156,20 @@ h2{
     margin: 0 15px;
     font-family: 'Source Code Pro' , Arial, Helvetica, sans-serif;
   }
-  
   /* Hover state animation applied here */
-  .button:hover { 
+.button:hover { 
     -webkit-animation: hover 1200ms linear 2 alternate;
     animation: hover 1200ms linear 2 alternate;
   }
   
   /* Active state animation applied here */
-  .button:active {
+.button:active {
     -webkit-animation: active 1200ms ease 1 alternate;
     animation: active 1200ms ease 1 alternate; 
     background: #4f6d7a;
   }
-  .gray { background: #4f6d7a; }
-  .gray:active { background: #4f6d7a; }
+.gray { background: #4f6d7a; }
+.gray:active { background: #4f6d7a; }
   
   /* Active state animation keyframes below */
   
@@ -196,7 +179,7 @@ h2{
     100% {transform: scale(.92,.9);}
   }
   
-  keyframes active { 
+  @keyframes active { 
     0% {transform: scale(1,1);}
     90% {transform: scale(.9,.88);}
     100% {transform: scale(.92,.9);}
@@ -282,4 +265,7 @@ h2{
     100% { -webkit-transform: matrix3d(1.1, 0, 0, 0, 0, 1.1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transform: matrix3d(1.1, 0, 0, 0, 0, 1.1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); } 
   }
   
+
+  /* ESTILOS BOTONES RRSS */
+
   
